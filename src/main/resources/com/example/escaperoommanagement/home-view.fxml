@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escaperoommanagement.HomeController">
+    <!-- Your UI components, including buttons, go here -->
+    <Button fx:id="sendHintButton" text="Send Hint" onAction="#onSendHintButtonClick" />
+    <Button fx:id="setTimeButton" text="Set Time" onAction="#onSetTimeButtonClick" />
+    <Button fx:id="openEscapeRoomButton" text="Open Escape Room Window" onAction="#onOpenEscapeRoomButtonClick" />
+</VBox>
